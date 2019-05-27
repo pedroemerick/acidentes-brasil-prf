@@ -8,7 +8,7 @@ import pandas as pd
 # Leitura dos acidentes de transito
 dados_datatran = []
 for ii in range(2017,2020):
-  csv = './dados/datatran' + str(ii) + '.csv'
+  csv = './datasets/datatran' + str(ii) + '.csv'
   
   dado = pd.read_csv(csv, encoding = "ISO-8859-1", sep=';', engine='python', error_bad_lines=False)
   dados_datatran.append(dado)
