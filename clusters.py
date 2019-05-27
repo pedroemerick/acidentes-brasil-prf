@@ -100,4 +100,4 @@ for valor in latslngs_menos_aci:
 
 folium.LayerControl().add_to(m)
 
-m.save('./mapas/clusters.html')
+m.save('./graficos_mapas/clusters.html')

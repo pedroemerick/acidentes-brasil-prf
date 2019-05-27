@@ -54,4 +54,4 @@ HeatMap(latslngs).add_to(m)
 
 folium.LayerControl().add_to(m)
 
-m.save('./mapas/heatmap_geral.html')
+m.save('./graficos_mapas/heatmap_geral.html')

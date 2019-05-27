@@ -131,4 +131,4 @@ colormap.add_to(m)
 # colormap2.add_to(m)
 
 # Salva o mapa
-m.save('./mapas/choropleth_estados.html')
+m.save('./graficos_mapas/choropleth_estados.html')
